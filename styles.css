@@ -54,10 +54,16 @@ nav {
   display: flex;
   padding: 0 0 125px 0;
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 .hero__text, .hero img {
   flex: 1 1 0;
+}
+
+.hero img {
+  width: auto;
+  height: auto;
 }
 
 .hero__text h1 {
