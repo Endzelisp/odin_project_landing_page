@@ -18,11 +18,6 @@ header {
   padding: 0 15vw;
 }
 
-nav {
-  margin: 0;
-  padding: 0;
-}
-
 .header-top {
   display: flex;
   justify-content: space-between;
@@ -86,4 +81,40 @@ nav {
   padding: 5px 35px;
   border-radius: 7px;
   font-weight: 700;
+}
+
+/* End of the header area */
+
+.card-area h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  padding: 2% 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 10%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 13%;
+}
+
+.card p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.box {
+  width: 13vw;
+  height: 13vw;
+  border: 3px solid #3882F6;
+  border-radius: 10px;
 }
