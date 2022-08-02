@@ -180,3 +180,18 @@ header {
   font-weight: 700;
   margin-bottom: 5px;
 }
+
+/* End of sign-up section */
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  height: 15vh;
+}
+
+footer p {
+  margin: auto;
+  max-width: fit-content;
+}
