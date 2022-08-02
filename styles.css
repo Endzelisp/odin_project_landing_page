@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
 
 html {
   font-family: 'Roboto', sans-serif;
@@ -118,4 +118,25 @@ header {
   height: 200px;
   border: 3px solid #3882F6;
   border-radius: 10px;
+}
+
+/* End of information area */
+
+.quote {
+  background-color: #E5E7EB;
+  color: #1F2937;
+}
+/* first child is the quote */
+.quote p:nth-child(1) {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  padding: 8% 15vw 0 24vw;
+}
+/* second child is the author */
+.quote p:nth-child(2) {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 1% 15vw 7% 17vw;
+  text-align: right;
 }
